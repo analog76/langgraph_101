@@ -28,6 +28,7 @@ def first_node(state: AgentState):
     print(f"AI: {response.content}")
     return state
 
+
 # Build the Graph
 graph = StateGraph(AgentState)
 graph.add_node("node_1", first_node)
