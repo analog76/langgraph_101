@@ -1,4 +1,4 @@
-# LLM Project with Anthropic Claude
+# Langgraph 101 learning with Anthropic Claude
 
 This project uses LangChain with Anthropic's Claude API and environment variable management.
 
