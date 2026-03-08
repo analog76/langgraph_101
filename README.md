@@ -18,19 +18,35 @@ This project uses LangChain with Anthropic's Claude API and environment variable
 
 ## Setup Instructions
 
-### 1. Activate Virtual Environment
+### 1. Create a Virtual Environment
 
+```bash
+python3 -m venv venv
+```
+
+This creates a `venv/` folder in your project directory.
+
+### 2. Activate Virtual Environment
+
+**macOS / Linux:**
 ```bash
 source venv/bin/activate
 ```
 
-### 2. Install Dependencies (if not already installed)
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+You should see `(venv)` in your terminal prompt when active. To deactivate later, run `deactivate`.
+
+### 3. Install Dependencies (if not already installed)
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment Variables
+### 4. Configure Environment Variables
 
 **Option A: Copy from template**
 ```bash
@@ -45,7 +61,7 @@ ANTHROPIC_API_KEY=sk-ant-your-actual-key-here
 
 Get your API key from: https://console.anthropic.com/settings/keys
 
-### 4. Run the Example
+### 5. Run the Example
 
 ```bash
 python example_usage.py
